@@ -1,3 +1,6 @@
+/* font */
+@import url("https://fonts.google.com/specimen/Poppins");
+
 *,
 *::after,
 *::before {
@@ -26,7 +29,7 @@ body {
 	padding: 60px 50px;
 	font-size: 15px;
 	color: var(--Grayish-Blue);
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: "poppins", sans-serif;
 }
 
 /* Container */
@@ -76,7 +79,6 @@ main {
 /* Sections */
 section {
 	width: 375px;
-	height: 300px;
 	margin: 40px auto;
 	background-color: white;
 	border-radius: 10px;
@@ -92,6 +94,12 @@ section h2 {
 section p {
 	margin-bottom: 50px;
 	line-height: 1.8em;
+}
+
+section div {
+	display: flex;
+	align-items: center;
+	justify-content: end;
 }
 
 /*
@@ -118,26 +126,27 @@ section img {
 
 /* Media Query*/
 
+@media (min-width: 1000px) {
+	main {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	section {
+		width: 300px;
+		height: auto;
+		margin: 30px 20px;
+	}
+}
+
 @media (min-width: 1100px) {
 	main {
 		display: flex;
 		align-items: center;
+		justify-content: center;
 	}
 	section {
-		height: 300px;
-		margin: 30px 20px;
-	}
-
-	article {
-		width: 33.33%;
-	}
-
-	.Supervisor {
-		width: 33.33%;
-	}
-
-	.Calculator {
-		width: 33.33%;
+		width: 375px;
 	}
 }
 

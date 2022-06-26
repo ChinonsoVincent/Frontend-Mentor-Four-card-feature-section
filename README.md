@@ -13,8 +13,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
     -   [Continued development](#continued-development)
 -   [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 The challenge was to build out this feature section and get it looking as close to the design as possible.
@@ -33,8 +31,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://github.com/ChinonsoVincent/Frontend-Mentor-Four-card-feature-section)
--   Live Site URL: [Add live site URL here](https://github.com/ChinonsoVincent/Frontend-Mentor-Four-card-feature-section/commits/main)
+-   Live Site URL: [view site here](https://chinonsovincent.github.io/Frontend-Mentor-Four-card-feature-section/)
 
 ### Built with
 
@@ -43,11 +40,9 @@ Users should be able to:
 -   Flexbox
 -   Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
-I learned how to properkly use google fonts and link them using the @@import url()
+I learned how to properly use google fonts and link them using the @import url()
 
 ```css
 @import url("https://fonts.google.com/specimen/Poppins");
@@ -55,7 +50,7 @@ I learned how to properkly use google fonts and link them using the @@import url
 
 ### Continued development
 
-I would like to learn how to use grid and improve on it as it gave me hard time using here.
+I would like to learn how to use CSS grid and improve on it as it gave me hard time and I couldn't use it in this project.
 
 ## Author
 
